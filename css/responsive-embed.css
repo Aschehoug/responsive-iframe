@@ -1,0 +1,17 @@
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-top: 30px;
+  position: relative; }
+  .video.r16x9 {
+    padding-bottom: 56.25%; }
+  .video.r4x3 {
+    padding-bottom: 75%; }
+  .video iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+/*# sourceMappingURL=responsive-embed.css.map */

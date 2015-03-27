@@ -1,0 +1,22 @@
+// Source: http://www.smashingmagazine.com/2014/02/27/making-embedded-content-work-in-responsive-design/
+.video {
+    height: 0;
+    overflow: hidden;
+    padding-top: 30px;
+    position: relative;
+
+    &.r16x9 {
+        padding-bottom: 56.25%;
+    }
+    &.r4x3 {
+        padding-bottom: 75%;
+    }
+
+    iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
