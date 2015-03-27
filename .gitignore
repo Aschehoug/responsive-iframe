@@ -8,4 +8,7 @@ Session.vim
 .netrwhist
 *~
 
+### Sass ###
+.sass-cache
+*.css.map
 
